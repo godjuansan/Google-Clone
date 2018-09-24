@@ -1,0 +1,123 @@
+html,body{
+	overflow-x: hidden;
+	margin:0;
+}
+.rincian{
+	text-align:center;
+	display:grid;
+	grid-template:60px / 70px 70px 50px 50px 50px ;
+	position: absolute;
+	right:0;
+	width:300px;
+	justify-items:center;
+	text-align: center;
+}
+.gmail{
+	align-items: center;
+	align-self: center;
+}
+.gambar{
+	align-items: center;
+	align-self: center;
+}
+.aplikasi-google{
+	background-color: white;
+	height:35px;
+	width:35px;
+	padding:0px;
+	border:none;
+	pad
+}
+.aplikasi-google img{
+	padding-top: 10px;
+	height:40px;
+	width:40px;
+}
+.notifikasi_google{
+	height:35px;
+	width:35px;
+	padding:0px;
+	border:none;
+	background-color: white;
+}
+.notifikasi_google img{
+	padding-top: 8px;
+	height:40px;
+	width:40px;
+	padding-right: 10px;
+}
+.akun_google{
+	background-color: white;
+	height:35px;
+	width:35px;
+	padding:0px;
+	border:none;
+}
+.akun_google img{
+	padding-top: 3px;
+	height:50px;
+	width:50px;
+	align-self: top;
+	}
+.logo {
+	text-align: center;
+	padding-top:138px;
+	margin-top:30px;
+}
+.search{
+	text-align:center;
+	margin-top:24px;
+}
+.search-box{
+	height:45px;
+	width:575px;
+}
+.penelusuran{
+	margin-top:px;
+	text-align:center;
+	margin-top:30px;
+}
+.penelusuran-google{
+	color:#757575;
+	height:35px;
+	background-color:#F2F2F2;
+	font-family:arial,sans-serif;
+}
+.penelusuran-google:hover{
+	color:#222222;
+}
+.saya-lagi-beruntung{
+	color:#757575;
+	height:35px;
+	background-color:#F2F2F2;
+	font-family:arial,sans-serif;
+}
+.saya-lagi-beruntung:hover{
+	color:#222222;
+}
+.bahasa{
+	text-align:center;
+	margin-top:15px;
+	font-family:arial,sans-serif;
+	font-size:14px;
+}
+.footer{
+	display:grid;
+	grid-template:5% 5% / repeat(3, 1fr) 10fr repeat(3, 1fr);
+	grid-row-start: 1;
+	background-color: rgb(230,230,230);
+	text-align: center;
+	align-self: end;
+	border:none;
+	position: absolute;
+	bottom:0;
+	width:100%;
+	margin-left: 0px;
+	padding-left: 0px; 
+	font-style: sans-serif;
+	font-size: 14px;
+	color:grey;
+}
+.bawah{
+	grid-row-start: 2;
+	align-self: end;
